@@ -1,9 +1,18 @@
 {
+<<<<<<< HEAD
+=======
+  "homepage": "https://miladmo68.github.io/Chat-App",
+>>>>>>> 819db46 (Initial commit without node_modules)
   "name": "chat-app",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
+<<<<<<< HEAD
+=======
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+>>>>>>> 819db46 (Initial commit without node_modules)
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
@@ -17,5 +26,11 @@
     "mongodb": "^6.9.0",
     "mongoose": "^8.6.2",
     "socket.io": "^4.7.5"
+<<<<<<< HEAD
+=======
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+>>>>>>> 819db46 (Initial commit without node_modules)
   }
 }
